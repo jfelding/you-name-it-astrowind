@@ -9,15 +9,15 @@ export const headerData = {
   
     {
       text: 'Aktiviteter',
-      href: '#',
+      href: '/aktiviteter',
     },
     {
       text: 'Repetoire',
-      href: '#',
+      href: '/repetoire',
     },
     {
       text: 'Kontakt',
-      href: '#',
+      href: '/kontakt',
     },
   ],
   // actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
@@ -27,31 +27,31 @@ export const footerData = {
   links: [
     {
       title: 'Aktiviteter',
-      links: [
-        { text: 'Korprøver', href: '#' },
-        { text: 'Månedlig korhygge', href: '#' },
-        { text: 'Korweekender', href: '#' },
-        { text: '', href: '#' },
-        { text: 'Indspilningsdage', href: '#' },
-        { text: 'Generalforsamlinger', href: '#' },
+  links: [
+    { text: 'Korprøver', href: '/korprover' },
+    { text: 'Månedlig korhygge', href: '/maanedlig-korhygge' },
+    { text: 'Korweekender', href: '/korweekender' },
+    { text: 'Andre arrangementer', href: '/andre-arrangementer' },
+    { text: 'Studiedage', href: '/studiedage' },
+    { text: 'Generalforsamlinger', href: '/generalforsamlinger' },
       ],
     },
     {
       title: 'Repetoire',
       links: [
-        { text: 'Klassisk', href: '#' },
-        { text: 'Rytmisk', href: '#' },
-        { text: 'Pistolsatser', href: '#' },
-        { text: 'Kompositioner af Mads Kronborg', href: '#' },
+        { text: 'Klassisk', href: '/klassisk' },
+        { text: 'Rytmisk', href: '/rytmisk' },
+        { text: 'Pistolsatser', href: '/pistolsatser' },
+        { text: 'Kompositioner af Mads Kronborg', href: '/kompositioner-af-mads-kronborg' },
       ],
     },
     {
       title: 'Kontakt',
       links: [
-        { text: 'Medlemskab: Syng med!', href: '/syng-med' },
-        { text: 'Korleder Mads Kronborg', href: '#' },
-        { text: 'Gæsteundervisere', href: '#' },
-        { text: 'Lokation', href: '#' },
+        { text: 'Medlemskab: Syng med!', href: '/medlemskab-syng-med' },
+        { text: 'Korleder Mads Kronborg', href: '/korleder-mads-kronborg' },
+        { text: 'Gæsteundervisere', href: '/gaesteundervisere' },
+        { text: 'Lokation', href: '/lokation' },
       ],
     },
   ],
@@ -63,8 +63,8 @@ export const footerData = {
     // { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/younameitkoret' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/younameitkoret' },
-    // { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    // { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
+    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/jfelding/you-name-it-astrowind' },
   ],
   footNote: `
     <img class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm" src="https://onwidget.com/favicon/favicon-32x32.png" alt="onWidget logo" loading="lazy"></img>
