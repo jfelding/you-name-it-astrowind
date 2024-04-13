@@ -12,15 +12,14 @@ export const headerData = {
       href: '/aktiviteter',
     },
     {
-      text: 'Repetoire',
-      href: '/repetoire',
+      text: 'Repertoire',
+      href: '/repertoire',
     },
     {
       text: 'Kontakt',
       href: '/kontakt',
     },
   ],
-  // actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
 
 export const footerData = {
@@ -37,7 +36,7 @@ export const footerData = {
       ],
     },
     {
-      title: 'Repetoire',
+      title: 'Repertoire',
       links: [
         { text: 'Klassisk', href: '/klassisk' },
         { text: 'Rytmisk', href: '/rytmisk' },
@@ -66,8 +65,8 @@ export const footerData = {
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/jfelding/you-name-it-astrowind' },
   ],
-  footNote: `
-    <img class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm" src="https://onwidget.com/favicon/favicon-32x32.png" alt="onWidget logo" loading="lazy"></img>
-    Lavet med <a class="text-blue-600 underline dark:text-muted" href="https://onwidget.com/"> onWidget</a>.
-  `,
+  // footNote: `
+  //   <img class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm" src="https://onwidget.com/favicon/favicon-32x32.png" alt="onWidget logo" loading="lazy"></img>
+  //   Lavet med <a class="text-blue-600 underline dark:text-muted" href="https://onwidget.com/"> onWidget</a>.
+  // `,
 };
