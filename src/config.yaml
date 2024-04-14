@@ -1,6 +1,6 @@
 site:
   name: You Name It
-  site: 'https://you-name-it.com'
+  site: 'https://you-name-it.dk'
   base: '/'
   trailingSlash: false
 
