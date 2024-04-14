@@ -4,7 +4,7 @@ export const headerData = {
   links: [
     {
       text: 'Forside',
-      href: '#',
+      href: '/index'
     },
   
     {
@@ -50,7 +50,6 @@ export const footerData = {
         { text: 'Medlemskab: Syng med!', href: '/medlemskab-syng-med' },
         { text: 'Korleder Mads Kronborg', href: '/korleder-mads-kronborg' },
         { text: 'Gæsteundervisere', href: '/gaesteundervisere' },
-        { text: 'Lokation', href: '/lokation' },
       ],
     },
   ],
