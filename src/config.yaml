@@ -3,7 +3,6 @@ site:
   site: 'https://you-name-it.dk'
   base: '/'
   trailingSlash: false
-
   googleSiteVerificationId: false
 
 # Default SEO metadata
@@ -33,11 +32,11 @@ i18n:
 
 apps:
   blog:
-    isEnabled: false
+    isEnabled: true
     postsPerPage: 6
 
     post:
-      isEnabled: false
+      isEnabled: true
       permalink: '/%slug%' # Variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
       robots:
         index: true
