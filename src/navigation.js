@@ -11,10 +11,10 @@ export const headerData = {
       text: 'Aktiviteter',
       href: '/aktiviteter',
     },
-    {
-      text: 'Repertoire',
-      href: '/repertoire',
-    },
+    // {
+    //   text: 'Repertoire',
+    //   href: '/repertoire',
+    // },
     {
       text: 'Kontakt',
       href: '/kontakt',
@@ -27,29 +27,20 @@ export const footerData = {
     {
       title: 'Aktiviteter',
   links: [
-    { text: 'Korprøver', href: '/korprover' },
-    { text: 'Månedlig korhygge', href: '/maanedlig-korhygge' },
     { text: 'Korweekender', href: '/korweekender' },
-    { text: 'Andre arrangementer', href: '/andre-arrangementer' },
-    { text: 'Studiedage', href: '/studiedage' },
-    { text: 'Generalforsamlinger', href: '/generalforsamlinger' },
       ],
     },
-    {
-      title: 'Repertoire',
-      links: [
-        { text: 'Klassisk', href: '/klassisk' },
-        { text: 'Rytmisk', href: '/rytmisk' },
-        { text: 'Pistolsatser', href: '/pistolsatser' },
-        { text: 'Kompositioner af Mads Kronborg', href: '/kompositioner-af-mads-kronborg' },
-      ],
-    },
+    // {
+    //   title: 'Repertoire',
+    //   links: [
+    //   ],
+    // },
     {
       title: 'Kontakt',
       links: [
         { text: 'Medlemskab: Syng med!', href: '/medlemskab-syng-med' },
-        { text: 'Korleder Mads Kronborg', href: '/korleder-mads-kronborg' },
-        { text: 'Gæsteundervisere', href: '/gaesteundervisere' },
+        // { text: 'Korleder Mads Kronborg', href: '/korleder-mads-kronborg' },
+        // { text: 'Gæsteundervisere', href: '/gaesteundervisere' },
       ],
     },
   ],
