@@ -1,6 +1,11 @@
 backend:
   name: git-gateway
   branch: main
+  repo: jfelding/you-name-it-astrowind
+  site_domain: you-name-it.dk
+  base_url: https://you-name-it-astrowind.pages.dev/
+  auth_endpoint: oauth
+
 
 media_folder: 'src/assets/images'
 public_folder: '/_astro'
