@@ -4,21 +4,34 @@ export const headerData = {
   links: [
     {
       text: 'Forside',
-      href: '/index'
+      href: '/'
     },
   
-    {
-      text: 'Aktiviteter',
-      href: '/aktiviteter',
-    },
+    // {
+    //   text: 'Aktiviteter',
+    //   href: getBlogPermalink(),
+    // },
     // {
     //   text: 'Repertoire',
     //   href: '/repertoire',
     // },
+    // {
+    //   text: 'Kontakt',
+    //   href: '/kontakt',
+    // },
     {
-      text: 'Kontakt',
-      href: '/kontakt',
+      text: 'Nyheder',
+      href: getPermalink('nyheder', 'category'),
     },
+    {
+      text: 'Events',
+      href: getPermalink('events', 'category'),
+    },
+    // {
+    //   text: 'Widgets',
+    //   href: '#',
+    // },
+    
   ],
 };
 
@@ -52,7 +65,7 @@ export const footerData = {
     // { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/younameitkoret' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/younameitkoret' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
+    // { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/jfelding/you-name-it-astrowind' },
   ],
   // footNote: `
