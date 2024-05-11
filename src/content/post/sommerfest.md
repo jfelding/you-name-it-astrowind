@@ -1,0 +1,10 @@
+---
+title: Sommerfest
+excerpt: Test
+category: events
+tags: []
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Henri_Rousseau_%28French%29_-_A_Centennial_of_Independence_-_Google_Art_Project.jpg/2560px-Henri_Rousseau_%28French%29_-_A_Centennial_of_Independence_-_Google_Art_Project.jpg
+publishDate: 2024-05-11T12:48:00.000Z
+author: Bestyrelsen
+---
+Dette er en test
