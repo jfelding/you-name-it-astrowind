@@ -12,13 +12,23 @@ public_folder: '/_astro'
 
 collections:
   - name: 'post'
+    extension: "mdx"
     label: 'Post'
     folder: 'src/content/post'
     create: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
-      - { label: 'Category', name: 'category', widget: 'string' }
+      - label: "Category"
+        name: "category"
+        widget: "list"
+        field: 
+          label: "Category"
+          name: "category"
+          widget: "select"
+          options: 
+            - "Events"
+            - "Nyheder"
       - {
           label: 'Tags',
           name: 'tags',
