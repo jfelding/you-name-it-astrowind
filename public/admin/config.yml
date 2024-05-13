@@ -29,6 +29,7 @@ collections:
         options: 
           - "Events"
           - "Nyheder"
+          - "Aktiviteter"
       - { label: 'Cover-billede, URL', name: 'image', widget: 'image', required: false}
       - { label: 'Offentliggørelsesdato', name: 'publishDate', widget: 'datetime' }
       - label: "Forfatter"

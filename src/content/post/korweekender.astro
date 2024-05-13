@@ -1,0 +1,147 @@
+---
+import Hero from '~/components/widgets/Hero.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Image from '~/components/common/Image.astro';
+
+const metadata = {
+  title: 'Korweekender i You Name It',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero tagline="Korweekender i You Name It">
+    <Fragment slot="title">
+      Korweekend
+      <span class="text-accent dark:text-white highlight"> 2024</span>
+    </Fragment>
+
+    <Fragment slot="subtitle"> 13.-14. april 2024 på Fredensborg Vandrehjem </Fragment>
+  </Hero>
+
+  <!-- Stats Widget ****************** -->
+
+  <Stats
+    title=""
+    stats={[
+      { title: 'Korsister', amount: '24' },
+      { title: 'Satser', amount: '16' },
+      { title: 'Korledere', amount: '2' },
+      { title: 'Lakridspiber', amount: '56' },
+    ]}
+  />
+
+  <div class="mx-auto max-w-screen-md">
+    <Image
+      src="~/assets/images/korweekend-2024/DSC_4515.webp"
+      class="w-full rounded shadow-lg bg-gray-400 dark:bg-slate-700"
+      widths={[320, 480, 750, 1000, 1500]}
+      width={1000}
+      layout="responsive"
+      alt="Korweekend 2024"
+      loading="lazy"
+      decoding="async"
+    /><br />
+
+    <Image
+      src="~/assets/images/korweekend-2024/DSC_4595.webp"
+      class="w-full rounded shadow-lg bg-gray-400 dark:bg-slate-700"
+      widths={[320, 480, 750, 1000, 1500]}
+      width={1000}
+      layout="responsive"
+      alt="Korweekend 2024"
+      loading="lazy"
+      decoding="async"
+    /><br />
+
+    <Image
+      src="~/assets/images/korweekend-2024/DSC_4507.webp"
+      class="w-full rounded shadow-lg bg-gray-400 dark:bg-slate-700"
+      widths={[320, 480, 750, 1000, 1500]}
+      width={1000}
+      layout="responsive"
+      alt="Korweekend 2024"
+      loading="lazy"
+      decoding="async"
+    /><br />
+
+    <Image
+      src="~/assets/images/korweekend-2024/DSC_4526.webp"
+      class="w-full rounded shadow-lg bg-gray-400 dark:bg-slate-700"
+      widths={[320, 480, 750, 1000, 1500]}
+      width={1000}
+      layout="responsive"
+      alt="Korweekend 2024"
+      loading="lazy"
+      decoding="async"
+    /><br />
+
+    <Image
+      src="~/assets/images/korweekend-2024/DSC_4495.webp"
+      class="w-full rounded shadow-lg bg-gray-400 dark:bg-slate-700"
+      widths={[320, 480, 750, 1000, 1500]}
+      width={1000}
+      layout="responsive"
+      alt="Korweekend 2024"
+      loading="lazy"
+      decoding="async"
+    /><br />
+
+    <Image
+      src="~/assets/images/korweekend-2024/DSC_4541.webp"
+      class="w-full rounded shadow-lg bg-gray-400 dark:bg-slate-700"
+      widths={[320, 480, 750, 1000, 1500]}
+      width={1000}
+      layout="responsive"
+      alt="Korweekend 2024"
+      loading="lazy"
+      decoding="async"
+    /><br />
+
+    <Image
+      src="~/assets/images/korweekend-2024/DSC_4554.webp"
+      class="w-full rounded shadow-lg bg-gray-400 dark:bg-slate-700"
+      widths={[320, 480, 750, 1000, 1500]}
+      width={1000}
+      layout="responsive"
+      alt="Korweekend 2024"
+      loading="lazy"
+      decoding="async"
+    /><br />
+
+    <Image
+      src="~/assets/images/korweekend-2024/DSC_4578.webp"
+      class="w-full rounded shadow-lg bg-gray-400 dark:bg-slate-700"
+      widths={[320, 480, 750, 1000, 1500]}
+      width={1000}
+      layout="responsive"
+      alt="Korweekend 2024"
+      loading="lazy"
+      decoding="async"
+    /><br />
+
+    <Image
+      src="~/assets/images/korweekend-2024/DSC_4606.webp"
+      class="w-full rounded shadow-lg bg-gray-400 dark:bg-slate-700"
+      widths={[320, 480, 750, 1000, 1500]}
+      width={1000}
+      layout="responsive"
+      alt="Korweekend 2024"
+      loading="lazy"
+      decoding="async"
+    /><br />
+
+    <Image
+      src="~/assets/images/korweekend-2024/DSC_4612.webp"
+      class="w-full rounded shadow-lg bg-gray-400 dark:bg-slate-700"
+      widths={[320, 480, 750, 1000, 1500]}
+      width={1000}
+      layout="responsive"
+      alt="Korweekend 2024"
+      loading="lazy"
+      decoding="async"
+    /><br />
+  </div>
+</Layout>

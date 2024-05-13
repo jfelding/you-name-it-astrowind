@@ -27,6 +27,10 @@ export const headerData = {
       text: 'Events',
       href: getPermalink('events', 'category'),
     },
+    {
+      text: 'Aktiviteter',
+      href: getPermalink('aktiviteter', 'category'),
+    },
     // {
     //   text: 'Widgets',
     //   href: '#',
@@ -36,27 +40,27 @@ export const headerData = {
 };
 
 export const footerData = {
-  links: [
-    {
-      title: 'Aktiviteter',
-  links: [
-    { text: 'Korweekender', href: '/korweekender' },
-      ],
-    },
+  // links: [
+  //   {
+  //     title: 'Aktiviteter',
+  // links: [
+  //   { text: 'Korweekender', href: '/korweekender' },
+  //     ],
+  //   },
     // {
     //   title: 'Repertoire',
     //   links: [
     //   ],
     // },
-    {
-      title: 'Kontakt',
-      links: [
-        { text: 'Medlemskab: Syng med!', href: '/medlemskab-syng-med' },
-        // { text: 'Korleder Mads Kronborg', href: '/korleder-mads-kronborg' },
-        // { text: 'Gæsteundervisere', href: '/gaesteundervisere' },
-      ],
-    },
-  ],
+  //   {
+  //     title: 'Kontakt',
+  //     links: [
+  //       { text: 'Medlemskab: Syng med!', href: '/medlemskab-syng-med' },
+  //       // { text: 'Korleder Mads Kronborg', href: '/korleder-mads-kronborg' },
+  //       // { text: 'Gæsteundervisere', href: '/gaesteundervisere' },
+  //     ],
+  //   },
+  // ],
   // secondaryLinks: [
   //   { text: 'Terms', href: getPermalink('/terms') },
   //   { text: 'Privacy Policy', href: getPermalink('/privacy') },
