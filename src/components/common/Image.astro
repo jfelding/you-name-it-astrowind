@@ -5,6 +5,7 @@ import {
   astroAsseetsOptimizer,
   unpicOptimizer,
   isUnpicCompatible,
+  getStyle,
   type ImageProps,
   type AttributesProps,
 } from '~/utils/images-optimization';
@@ -47,6 +48,32 @@ if (
   isUnpicCompatible(_image)
 ) {
   image = await getImagesOptimized(_image, props, unpicOptimizer);
+} else if (typeof _image === 'string' && _image.startsWith('/images/')) {
+  const width = 900;
+  const height = 1600;
+  // const srcset = `${_image} ${width}w`;
+  // const sizes = '100vw';
+
+  let layout = props.layout;
+
+  //let class = "w-full absolute bg-gray-400 dark:bg-slate-700 h-full inset-0 mb-6 object-cover rounded shadow-lg;"
+
+  image = {
+    src: _image,
+    attributes: {
+      width: width,
+      height: height,
+      // srcset: srcset,
+      // sizes: sizes,
+      style: getStyle({
+        width: width,
+        height: height,
+        aspectRatio: 1.77,
+        layout: 'layout',
+      }),
+      ...props,
+    },
+  };
 } else if (_image) {
   image = await getImagesOptimized(_image, props, astroAsseetsOptimizer);
 }

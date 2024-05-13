@@ -10,8 +10,8 @@ backend:
   auth_endpoint: oauth
 
 
-media_folder: 'src/assets/images'
-public_folder: '/_astro'
+media_folder: 'public/images'
+public_folder: '/images'
 
 collections:
   - name: 'post'
@@ -29,7 +29,7 @@ collections:
         options: 
           - "Events"
           - "Nyheder"
-      - { label: 'Cover-billede, URL', name: 'image', widget: 'string', required: false}
+      - { label: 'Cover-billede, URL', name: 'image', widget: 'image', required: false}
       - { label: 'Offentliggørelsesdato', name: 'publishDate', widget: 'datetime' }
       - label: "Forfatter"
         name: "author"
