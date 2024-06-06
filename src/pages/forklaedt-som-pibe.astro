@@ -11,6 +11,7 @@ import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import { Image } from 'astro:assets';
 
 const metadata = {
   title: 'Forklædt Som Pibe',
@@ -20,7 +21,7 @@ const metadata = {
 
 <Layout>
   <div class="bg-white bg-[url('/images/piber.svg')] bg-contain bg-opacity-25 bg-repeat">
-    <Hero image={{ src: '~/assets/images/jonas-bog.webp', alt: 'AstroWind Hero Image' }}>
+    <Hero image={{ src: '/images/lakridspibe-mads.webp', alt: 'AstroWind Hero Image' }}>
       <Fragment slot="title">
         Forklædt Som
         <span class="text-accent dark:text-white highlight"> Pibe</span>
@@ -36,6 +37,21 @@ const metadata = {
           >Sangen har en helt særlig plads i You Name It kernerepertoire, hvor SATB-harmonierne byder på mystik,
           forfærdelse samt dyb hvisken og høje falsetter.
         </span>
+        <br />
+        <br />
+
+        <Image
+          src={'/images/jonas-bog.webp'}
+          class="mx-auto rounded-md w-full"
+          widths={[400, 768, 1024, 2040]}
+          sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
+          loading="eager"
+          width={1024}
+          height={576}
+          alt="Mads Kronborg iført lakridspiber"
+          loading="lazy"
+          decoding="async"
+        />
       </Fragment>
     </Hero>
   </div>
