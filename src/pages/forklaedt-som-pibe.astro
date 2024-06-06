@@ -1,0 +1,42 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import Note from '~/components/widgets/Note.astro';
+import Features from '~/components/widgets/Features.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import Content from '~/components/widgets/Content.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Forklædt Som Pibe',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout>
+  <div class="bg-white bg-[url('/images/piber.svg')] bg-contain bg-opacity-25 bg-repeat">
+    <Hero image={{ src: '~/assets/images/jonas-bog.webp', alt: 'AstroWind Hero Image' }}>
+      <Fragment slot="title">
+        Forklædt Som
+        <span class="text-accent dark:text-white highlight"> Pibe</span>
+      </Fragment>
+
+      <Fragment slot="subtitle">
+        <a class="underline" href="http://madskronborg.dk">Mads Kronborgs</a> korarrangement "Forklædt Som Pibe" fører os
+        gennem <a class="underline" href="https://yornas.com/">Jonas Dahl Grues</a> både drabelige og sukkersøde rim om mordet
+        på en vingummibamse, som er gengivet i bogen <i>Når Flæskefar Ryger Fiskecigar</i>
+        <br />
+        <br />
+        <span
+          >Sangen har en helt særlig plads i You Name It kernerepertoire, hvor SATB-harmonierne byder på mystik,
+          forfærdelse samt dyb hvisken og høje falsetter.
+        </span>
+      </Fragment>
+    </Hero>
+  </div>
+</Layout>

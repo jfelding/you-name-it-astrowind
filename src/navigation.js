@@ -6,7 +6,6 @@ export const headerData = {
       text: 'Forside',
       href: '/'
     },
-  
     // {
     //   text: 'Aktiviteter',
     //   href: getBlogPermalink(),
@@ -30,6 +29,9 @@ export const headerData = {
     {
       text: 'Aktiviteter',
       href: getPermalink('aktiviteter', 'category'),
+    },
+      {text: 'Lakridspiber', 
+      href: '/forklaedt-som-pibe'
     },
     // {
     //   text: 'Widgets',
